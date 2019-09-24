@@ -3,8 +3,10 @@ This software allows to insert clusters' points with specific location (longitud
 
 2 - Requirements:
 
-mongodb 
-python 2.7
-python module:
-pandas
-webcolors
+mongodb, 
+python 2.7.
+
+Python module:
+pyMongo,
+pandas,
+webcolors.

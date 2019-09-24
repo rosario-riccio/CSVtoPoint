@@ -12,7 +12,7 @@ from webcolors import rgb_to_hex
 import sys
 
 #insert your path
-src = "/home/rosario/Scrivania/csvCluster"
+src = "<insert your path where are csv files>"
 
 def main():
     os.chdir(src)

@@ -9,7 +9,7 @@ class ManageDB(object):
             client = MongoClient("mongodb://localhost:27017/")
             db = client.MediStormSeekerDB
         except Exception as e:
-            print("db non pronto " + str(e))
+            print("db not ready " + str(e))
         self.db = db
 
     def insertPointClusterDB(self,pointClusterGeoJson):

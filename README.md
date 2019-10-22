@@ -11,3 +11,4 @@ Configuration:
 6. pip install --upgrade pip
 7. pip install -r requirements.txt
 8. python main.py
+9. insert your path where there are csv files into variable src in main.py: src = "<insert your path where are csv files>"

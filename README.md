@@ -4,4 +4,4 @@ This software allows to insert clusters' points with specific location (longitud
 Configuration:
 
 1. Install Weather Labeling Web App: https://github.com/rosario-riccio/Weather-Labeling-Web-Application. It's necessary to execute all comands of configuration
-2. git clone https://github.com/CCMMMA/Weather-Labeling-Web-Application
+2. git clone https://github.com/rosario-riccio/CSVtoPoint.git

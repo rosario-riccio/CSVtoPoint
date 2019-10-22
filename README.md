@@ -1,12 +1,7 @@
 # CSVtoPoint
-This software allows to insert clusters' points with specific location (longitude,latitude) from  csv file into a mongoDB. In this case these points belong to unsupervised analysis. From DB this data will be available to web app MediStormSeeker into leaflet map
+This software allows to insert clusters' points with specific location (longitude,latitude) from  csv file into a mongoDB. In this case these points belong to unsupervised analysis. From DB this data will be available to web app Weather Labeling Web App into leaflet map
 
-2 - Requirements:
+Configuration:
 
-mongodb, 
-python 2.7.
-
-Python module:
-pyMongo,
-pandas,
-webcolors.
+1. Install Weather Labeling Web App: https://github.com/rosario-riccio/Weather-Labeling-Web-Application. It's necessary to execute all comands of configuration
+2. git clone https://github.com/CCMMMA/Weather-Labeling-Web-Application

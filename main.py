@@ -11,7 +11,7 @@ import numpy as np
 from webcolors import rgb_to_hex
 import sys
 
-#insert your path
+#insert your path where there are your csv files
 src = "<insert your path>"
 
 def main():

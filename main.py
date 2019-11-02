@@ -12,10 +12,14 @@ from webcolors import rgb_to_hex
 import sys
 
 #insert your path
-src = "<insert your path where are csv files>"
+src = "<insert your path>"
 
 def main():
-    os.chdir(src)
+    try:
+        os.chdir(src)
+    except Exception as e:
+        print("Error: there is no local folder", str(e))
+        sys.exit(1)
     count = 0
     #value --> on/off step 1
     #value1 --> on/off step2
@@ -26,7 +30,11 @@ def main():
     if value:
         for filename in glob.glob('*.csv'):
             print(filename)
-            df = pd.read_csv(filename,header=None)
+            try:
+                df = pd.read_csv(filename, header=None)
+            except Exception as e:
+                print("Error: there is no a csv file", str(e))
+                sys.exit(1)
             for index, row in df.iterrows():
                 check1 = int(row[2])
                 if check1 != 0:
@@ -72,5 +80,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 

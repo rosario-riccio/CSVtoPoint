@@ -28,7 +28,7 @@ class MyTools(object):
             print("exception error DB", str(e))
 
     def insertClassClusterDB(self,classCluster,colorHEX):
-        """This method allows to insert a class cluster into DB"""
+        """This method allows to inzzsert a class cluster into DB"""
         try:
             classClusterRecord = {"classCluster":str(classCluster),"color":colorHEX}
             id = managedb.insertClassClusterDB(classClusterRecord)
@@ -37,5 +37,4 @@ class MyTools(object):
             print("exception error DB", str(e))
 
 mytool = MyTools()
-
 
